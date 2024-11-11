@@ -1,6 +1,3 @@
-Here’s the updated `README.md` without the "Environment Variables" section, along with instructions for creating an SMTP password:
-
-```markdown
 # WishOnTime
 
 WishOnTime is a Django-based web application that allows users to schedule birthday wishes for friends and loved ones. Users can register birthdays, set a personalized message, and the app will send a wish on the specified date.
@@ -120,11 +117,11 @@ To set up the database:
 
 Here are some screenshots of the application:
 
-- ![Screenshot 1](./screenshots/Screenshot%20(101).png)
-- ![Screenshot 2](./screenshots/Screenshot%20(102).png)
-- ![Screenshot 3](./screenshots/Screenshot%20(103).png)
-- ![Screenshot 4](./screenshots/Screenshot%20(104).png)
-- ![Screenshot 5](./screenshots/Screenshot%20(105).png)
+- ![Screenshot 1](./config/screenshots/Screenshot%20(101).png)
+- ![Screenshot 2](./config/screenshots/Screenshot%20(102).png)
+- ![Screenshot 3](./config/screenshots/Screenshot%20(103).png)
+- ![Screenshot 4](./config/screenshots/Screenshot%20(104).png)
+- ![Screenshot 5](./config/screenshots/Screenshot%20(105).png)
 
 ## Contributing
 
@@ -135,6 +132,3 @@ Contributions are welcome! If you have suggestions or would like to add new feat
 ### License
 
 This project is open-source and available under the MIT License.
-```
-
-Now, the README includes steps for creating an SMTP password and excludes the environment variables section. Let me know if you'd like any more changes!
