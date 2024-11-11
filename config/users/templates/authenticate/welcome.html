@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to WishOnTime</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #514bc1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            color: #0073e6;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .message {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Welcome to WishOnTime!</div>
+        <p class="message">Hello {{ name }},</p>
+        <p class="message">Your username, <strong>{{ username }}</strong>, has been successfully registered. and the password is {{ password }}</p>
+        <p class="message">{{ message }}</p>
+    </div>
+</body>
+</html>

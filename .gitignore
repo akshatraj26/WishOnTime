@@ -1,0 +1,7 @@
+.env
+db.sqlite3
+
+config/my_app\migrations\0001_initial.py
+
+*.pyc
+__pycache__/
